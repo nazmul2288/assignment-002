@@ -40,20 +40,30 @@
 main{
     margin:0 auto;
 }
-.container{
-    width: 270px;
-    height:484.94px;
-}
+
 .card{
+    width: 270px;
+    height:323px;
     align-items: center;
     text-align: center;
+    gap: 20px;
+}
+.img{
+    width:270px;
+    height:323px;
+}
+.lily{
+    width:270px;
+    height: 132px;
 }
 .btn{
     background-color: rgba(233, 90, 8, 1);
     color: rgba(255, 255, 255, 1);
-     padding: 0.1px 115px;
-}
-.curt{
-    white-space: nowrap;
-    
+    background-position:100%;  
+    /* border-radius: 10px; */ 
+   height: 50px;
+   width: 270px;
+   border: none;
+   padding: 10px 36px;
+   white-space: nowrap;
 }
