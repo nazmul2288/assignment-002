@@ -1,11 +1,59 @@
- @import "tailwindcss"; 
+ @import "tailwindcss";
+
+ .inter-text{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+} 
+ body{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: rgb(3, 80, 80); */
+
+ }
 .logo{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* text-justify:auto; */
-  color: #ff9147;
+   text-justify:auto;  
   size: 34px;
   margin: 0 150px;
   gap: 48px;
+  white-space: nowrap;
+   
+}
+
+.home{
+    color: rgba(37, 36, 50, 1);
+    /* font-weight: 800; */
+}
+.plants{
+    text-justify: auto;
+    align-items: center;
+    /* color: #ff9147; */
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+/* ================================================================================= */
+main{
+    margin:0 auto;
+}
+.container{
+    width: 270px;
+    height:484.94px;
+}
+.card{
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+     padding: 0.1px 115px;
+}
+.curt{
+    white-space: nowrap;
+    
 }
