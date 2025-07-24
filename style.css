@@ -1,0 +1,11 @@
+ @import "tailwindcss"; 
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* text-justify:auto; */
+  color: #ff9147;
+  size: 34px;
+  margin: 0 150px;
+  gap: 48px;
+}
