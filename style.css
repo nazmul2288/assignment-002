@@ -183,6 +183,9 @@ main{
 }
 /* ........................>>>>>>>>>>>>>  Join the colorful Bunch    <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .colorful-bunch{
+    max-width:1440px;
+    margin: none;
     
+    background-image:url(/B12A02-Responsive-Flowers/assets/news-letter-bg.png);
 }
 
