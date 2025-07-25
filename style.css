@@ -8,7 +8,7 @@
   font-style: normal;
 } 
 
- body{
+ main,header{
     max-width:1140px;
     margin: 0 auto;
     /* background-color: rgb(3, 80, 80); */
@@ -182,10 +182,29 @@ main{
     border-radius: 14px;
 }
 /* ........................>>>>>>>>>>>>>  Join the colorful Bunch    <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-.colorful-bunch{
-    max-width:1440px;
+.colorful-bunch{ position: initial;
+    width:100%;
+    height: 533px;
     margin: none;
-    
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
     background-image:url(/B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    position: relative;
+    
 }
+.btn-2{
+    background-color: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    background-position:100%;    
+    height: 50px;
+    width: 186px;
+    border: none;
+    white-space: nowrap;
 
+
+}
