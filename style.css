@@ -1,16 +1,31 @@
  @import "tailwindcss";
 
+
  .inter-text{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 } 
+
  body{
-    max-width: 1140px;
+    max-width:1140px;
     margin: 0 auto;
     /* background-color: rgb(3, 80, 80); */
 
+ }
+ .nav {
+    width: 1140px;
+    height: 71px;
+    justify-content:space-between;
+    align-items: center;
+ }
+ .cart{
+    align-items: center;
+ }
+ .logos{
+    width: 24px;
+    height: 24px;
  }
 .logo{
   display: flex;
@@ -21,6 +36,11 @@
   margin: 0 150px;
   gap: 48px;
   white-space: nowrap;
+   
+}
+.always{
+    /* width: 1440px; */
+    height: 461px;
    
 }
 
@@ -66,4 +86,38 @@ main{
    border: none;
    padding: 10px 36px;
    white-space: nowrap;
+}
+
+
+/* ..................................Badge Container.................................................. */
+
+
+
+.container{
+    width: 1140px;
+    height: 597px;
+    background-color: blueviolet;
+    display: flex;
+    align-items:flex-start;
+    position: relative;
+    gap: 60px;
+    margin-top: 200px;
+}
+.image-section{
+    position:relative;
+    width: 300px;
+}
+.main-image{
+    display:block;
+    width:540px;
+
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top:-150px ;
+    right: -80px;
+    z-index:1;
+
 }
