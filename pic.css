@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    /* width: 1140px;
+    height:597px;  */
+    
+    justify-content:center;
+    align-items:center;
+    
+    gap: 60px;  
+    /* position: relative; */
+    border:solid;
+    margin-top: 200px;
+}
+
+/* .image-section {
+  position: relative;
+  width:auto;
+} */
+
+.main-image {
+  width:800px;
+  height:auto;
+  border-radius: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: -448px;
+  right: -347px;
+  width: 286px;
+  height: 286px;
+  z-index: 1;
+}
