@@ -136,3 +136,53 @@ main{
   height: 286px;
   z-index: 1;
 }
+/* >>.>>>>>>>>>>>>>....>>>>>>>> image-combo >>>>>>>>>>>>>>..................>..................... */
+
+.image-combo{
+    display:grid;
+    grid-template-columns:1fr 2fr;    
+    gap: 10px;
+    background-position: center;
+    /* justify-content: center; */
+    position: relative;
+    margin-top: 120px;
+    gap: 28px;
+}
+.Bloom-Plant{
+    height: 206px;
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+    background-image:url(/B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.Zabo-Plant{
+    height: 423px;
+    width: 753px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url(/B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    border-radius: 22px;
+}
+.Ana-Plant{
+    width: 366px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url(/B12A02-Responsive-Flowers/assets/deal-ana.png);
+    margin-top: 30px;
+    border-radius: 14px;
+}
+/* ........................>>>>>>>>>>>>>  Join the colorful Bunch    <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.colorful-bunch{
+    
+}
+
