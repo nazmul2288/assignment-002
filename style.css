@@ -96,7 +96,8 @@ main{
 
 .container {
     display: flex;
-    
+    /* width: 1140px;
+    height:597px;  */
     
     justify-content:center;
     /* align-items:center; */
@@ -254,10 +255,6 @@ main{
 /* .........................Reapons for Mobile................... */
 
 @media (max-width: 768px) {
-    main,header{
-        width: 100%;
-        margin: auto;
-    }
   .nav {
     width: 100%;
     padding: 10px 20px;
@@ -306,7 +303,7 @@ main{
   }
   .container{
     flex-direction: column;
-    margin-left: 30px;
+    margin: 18px;
   }
   .image-section{
     position: relative;
@@ -325,10 +322,7 @@ main{
     flex-direction: column;
     align-items: stretch;
     gap: 10px;
-    padding: 16px;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden; 
+    padding: 16px; 
     
     height:auto; 
     min-height:60px;
